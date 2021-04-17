@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Test</title>
+</head>
+<body>
+    <main class="container">
+        <h1>Весь текст произвольный Тестовое<br> задание на позицию Front End Developer</h1>
+        <ol class="colorYellow">
+            <li><a href="#paragraph">Дополнительно</a></li>
+            <li><a href="#paragraph1">Требования к выполнению работы</a></li>
+            <li><a href="#paragraph2">Список поддерживаемых браузеров и мобильных устройств</a></li>
+            <li><a href="#paragraph3">Общие требования к верстке</a></li>
+            <li><a href="#paragraph4">Общие требования к оформлению кода</a></li>
+        </ol>
+        <p>В рамках тестового задания необходимо выполнить верстку одностраничного RWD сайта.</p>
+        <p class="reset-margin">Задание состоит из 3х этапов:</p>
+        <ol class="with-parentheses">
+            <li>Верстка декстопной версии сайта.</li>
+            <li>Верстка планшетной версии сайта.</li>
+            <li>Верстка мобильной версии сайта с техническим дизайном, основанным на десктопной версии. Глобальная перестройка лойаута для мобильной версии начинается с 767px.</li>
+        </ol>
+        <h2 id="paragraph">Дополнительно</h2>
+        <ol class="with-parentheses">
+            <li>Все иконоки необходимо вставлять с помощью svg (желательно использовать спрайт)</li>
+            <li>Шрифты подключать с <span class="red-color">Google Fonts</span></li>
+            <li>Все элементы которые подразумевают hover/active состояние должны иметь стилизацию для этих состояний.</li>
+            <li><i>Sticky header.</i> Пункт меню с выпадающим списком также является ссылкой</li>
+            <li>Баннер в начале страницы, слайдер изображений, с ф-цией автовоспроизведения. Текст и форма статичны.</li>
+            <li>В секции 'Onze klanten' заголовок статичен, все остальное слайды переключаемые либо кнопками, либо свайпом</li>
+            <li>Все ссылки, ведущие на внешние ресурсы должны иметь <i>target _blank</i></li>
+        </ol>
+        <h2 id="paragraph1">Требования к выполнению работы</h2>
+        <ol class="with-parentheses">
+            <li>Не подключать готовые reset css (необходимо написать собственную)</li>
+            <li>Различные библиотеки, шрифты необходимо подключать напрямую в проект</li>
+        </ol>
+        <h2 id="paragraph2">Список поддерживаемых браузеров и мобильных устройств</h2>
+        <ol class="with-parentheses">
+            <li>десктопные браузеры: <b>IE9+</b>, FF, Opera, Chrome, Safari – последние версии;</li>
+            <li>мобильные устройства: iPhone 5+, iPad 3, iPad Air, Samsung Galaxy 3+</li>
+        </ol>
+        <h2 id="paragraph3">Общие требования к верстке</h2>
+        <ol>
+            <li>Блочная верстка (div-based) c RWD</li>
+            <li>Использование любого сборщика проектов (gulp, grunt, webpack)</li>
+            <li>Чистый html(pug)/scss(sass) код <u>(запрещено использование:</u> javascript (все скрипты выносятся в отдельный файл), expression, style, условных комментариев, не валидых хаков для IE и др.). <i>Исключение: подключение дополнительных корректирующих таблиц для IE.</i></li>
+            <li>Кроссбраузерность</li>
+            <li>Валидный код HTML и CSS для HTML5/CSS3 (http://validator.w3.org)</li>
+            <li>Минимальный оптимизированный html/css код. Использование идентификаторов (id) только для создания «каркаса» верстки, работа с классами (class), создание базовых классов.</li>
+            <li>Все оформление и изображения, не изменяемые динамически, выносятся в таблицу стилей (css). Ничего не должно быть прописано через inline стили. Исключением могут быть стили динамически добавляемые javascript.</li>
+        </ol>
+        <h2 id="paragraph4">Общие требования к оформлению кода</h2>
+            <p class="left-margin"><span class="num">1.</span>В коде (html/css) не должно быть неиспользуемых блоков, свойств, закомментированных участков, нереализованных мыслей и пр. «мусора».</p>
+            <p class="left-margin"><span class="num">2.</span>Названия идентификаторов и классов должны иметь значимые либо соответствующие месту применения имена на английском языке (н-р: запрещается использование классов типа .gyh1, .a1, .tochecka, .risunok, . logo_search, .topMenu3 и им подобных). Все имена классов только в нижнем регистре (н-р: .sidebar, .logo, .shopping-cart). Разрешено использовать систему сокращений (н-р: классы для таблиц, содержащих информацию – .tbl-«table-name»).</p>
+            <p class="left-margin"><span class="num">3.</span>Желательно не использовать float.</p>
+        <h2>Результатом выполнения тестового задания должен стать архив. Также необходимо указать время, затраченное на разработку.</h2>
+        <h2>Создать таблицу:</h2>
+        <table>
+            <tr>
+                <th>№ партии</th>
+                <th>Товар</th>
+                <th>Вес партии, кг</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Яблоки</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Груши</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Апельсины</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Мандарины</td>
+                <td>44</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Киви</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Бананы</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Ананасы</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Абрикосы</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Манго</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Грейпфрут</td>
+                <td>21</td>
+            </tr>
+        </table>
+        <h2>Создать форму:</h2>
+        <form class="form-horizontal" action="#" method="POST">
+            <div>
+                <div>
+                    <span><label for="text">1. Ваше имя:</label></span>
+                    <span><input type="text" name="Text" value="Ivan" id="text" required autofocus></span>
+                </div>
+                <div>
+                    <span><label for="password">2. Пароль:</label></span>
+                    <span><input type="password" name="pass" value="vPassword" id="password" placeholder="**********" required></span>
+                </div>
+                <div>
+                    <span><label for="sex">3. Пол:</label></span>
+                    <span><input type="radio" name="Male" value="vMale" id="sex" checked>Мужской</span>
+                    <span><input type="radio" name="Female" value="vFemale" id="#">Женский</span>
+                </div>
+                <div>
+                    <span><label for="hobbies"></label>4. Ваши увлечения:</span>
+                    <span><input type="checkbox" name="Music" value="vMsuic" id="hobbies" checked>Музыка</span>
+                    <span><input type="checkbox" name="Video" value="vVideo" checked>Видео</span>
+                    <span><input type="checkbox" name="Paint" value="vPaint" checked>Рисование</span>
+                </div>
+                <div>
+                    <span><label for="#"></label>5. Ваш город:</span>
+                    <select>
+                        <option id="sityform">Выберите город</option>
+                        <option>Киев</option>
+                        <option>Харьков</option>
+                        <option>Днепр</option>
+                        <option>Львов</option>
+                </select>
+                </div>
+                <div>
+                    <span><label for="textarea"></label>6. Кратко о себе:</span>
+                    <textarea id="textarea" rows="1" cols="40" name="text" placeholder="About me)"></textarea>
+                </div>
+                <div>
+                    <span><label for="Avatar"></label>7. Аватар</span>
+                    <span><input type="file" name="Avatar" multiple id="Avatar"></span>
+                </div>
+                <div>
+                    <span><label for="reset"></label>8.</span>
+                    <span><input type="reset" name="Reset" id="reset"></span>
+                    <span><label for="submit"></label>9.</span>
+                    <span><input type="submit" name="Submit" id="submit"></span>
+                    <span><label for="button"></label>10.</span>
+                    <span><input type="button" name="Button" id="button" value="Кликни по мне просто так"></span>
+                </div>
+            </div>
+        </form> 
+    </main>
+</body>
+</html>
